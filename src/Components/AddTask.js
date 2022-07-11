@@ -27,13 +27,13 @@ const onSubmit  = (e) => {
              value = {text}
              onChange={(e)=> setText(e.target.value)} />
         </div>
-        <div className='form-control form-control-check'>
+        <div className='form-control'>
             <label>Day & Time</label>
             <input type='text' placeholder='Add Day & Time '
             value = {day}
             onChange={(e)=> setDay(e.target.value)}/>
         </div>
-        <div className='form-control'>
+        <div className='form-control form-control-check'>
             <label>Set Reminder</label>
             <input type='checkbox'
             checked={reminder}
@@ -41,7 +41,7 @@ const onSubmit  = (e) => {
             onChange={(e)=> setReminder(e.currentTarget.checked)} />
         </div>
 
-        <input type='submit' value='Save Task' className='btn-block'/>
+        <input type='submit' value='Save Task' className='btn btn-block'/>
     </form>
   )
 }

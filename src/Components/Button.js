@@ -10,10 +10,10 @@ const onClick = (e) => {
 }
 
 Button.defaultProps={
-    color:'streetblue'
+  color:'streetblue'
 }
- Button.propTypes={
-    text: PropTypes.string,
-    color: PropTypes.string,
- }
+Button.propTypes={
+  text: PropTypes.string,
+  color: PropTypes.string,
+}
 export default Button
