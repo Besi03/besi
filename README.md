@@ -1,10 +1,6 @@
 # React.js task tracker
 It is a simple platform to keep in track your duties and many needed reminders for you
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
